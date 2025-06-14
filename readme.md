@@ -72,3 +72,10 @@ install sequelize(it's a ORM) -> b/c help to convert SQL queries( database -> MY
         If you are setting up your development environment then write the username of your `DB`, password of your ``DB`` and in dialect mention whatever `DB` you are using for example mysql Mario db Portuguese etc.
 
         If you are setting up test or production environment make sure you also replace the host with the hosted `DB` URL.
+
+
+
+        if some one try to fetch base module 
+            delete models->index.js
+                and do
+            in src npx sequelize init
